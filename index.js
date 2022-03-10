@@ -11,4 +11,9 @@ app.get('/about', (req, res)=>{
     res.send("<h1>THIS IS THE ABOUT PAGE</h1>")
 })
 
+app.get('/home', (req, res)=>{
+    console.log("HOME Page logged in the logs")
+    res.send("<h1>THIS IS THE HOME PAGE</h1>")
+})
+
 app.listen(3000)
