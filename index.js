@@ -16,4 +16,8 @@ app.get('/home', (req, res)=>{
     res.send("<h1>THIS IS THE HOME PAGE</h1>")
 })
 
+app.get('/placement', (req, res)=>{
+    console.log("placed")
+    res.send("<h1>THIS IS THE PLACEMENT PAGE</h1>")
+})
 app.listen(3000)
